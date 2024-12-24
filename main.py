@@ -7,7 +7,7 @@ class IPTVPlayer:
         self.root = root
         self.root.title("IPTV Player")
 
-        self.url_label = tk.Label(root, text="Stream URL:")
+        self.url_label = tk.Label(root, text="Stream URL:https://412waf3tbbmrag5m.public.blob.vercel-storage.com/IPTV.M3U8")
         self.url_label.pack()
         self.url_entry = tk.Entry(root, width=50)
         self.url_entry.pack()
